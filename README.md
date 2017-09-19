@@ -4,7 +4,7 @@ This tool was made out of frustration of having to figure out how many items I n
 
 ## Requirements
 
-Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the package.json for any dependencies. It should not be very hard to convert it into an offline webpage only though. I will add that in a later commit.
+Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the `package.json` for any dependencies. It should not be very hard to convert it into an offline webpage only though. I will add that in a later commit.
 
 ## Usage
 
@@ -33,8 +33,8 @@ There may be bugs in the tool resulting in an inaccurate list of required items.
 
 
 ## Acknowledgements
-
-All images were take from the [Unofficial Feed the Beast Wiki page](https://ftbwiki.org/Feed_The_Beast_Wiki). These images belong to their respective creators (Mojang / the creator of a specific mod).
+* [Phaser](https://phaser.io/) as this was built with Phaser.
+* All images were take from the [Unofficial Feed the Beast Wiki page](https://ftbwiki.org/Feed_The_Beast_Wiki). These images belong to their respective creators (Mojang / the creator of a specific mod).
 
 
 
