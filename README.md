@@ -25,7 +25,7 @@ This list out the original crafting recipe of the selected item.
 This list out all the basic materials that is required to craft the item.
 
 ## Supported mods in Skyfactory 3
-* [Solar Flux Reborn][https://minecraft.curseforge.com/projects/solar-flux-reborn]
+* [Solar Flux Reborn](https://minecraft.curseforge.com/projects/solar-flux-reborn)
 
 
 ## Acknowledgements
