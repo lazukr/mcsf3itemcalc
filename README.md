@@ -1,10 +1,10 @@
-# Minecraft Skyfactory 3 Tiered Crafting Calculator
+# Minecraft SkyFactory 3 Tiered Crafting Calculator
 
-This tool was made out of frustration of having to figure out how many items I needed in order to craft a specific tier of solar panels from the Skyfactory 3 modpack. 
+This tool was made out of frustration of having to figure out how many items I needed in order to craft a specific tier of solar panels from the [SkyFactory 3 modpack](https://www.feed-the-beast.com/projects/ftb-presents-skyfactory-3). The version used is **3.0.13**.
 
 ## Requirements
 
-Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the package.json for any dependencies. It should not be very hard to convert it into an offline webpage only though. I will add that in a later commit.
+Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the `package.json` for any dependencies. It should not be very hard to convert it into an offline webpage only though. I will add that in a later commit.
 
 ## Usage
 
@@ -24,7 +24,7 @@ This list out the original crafting recipe of the selected item.
 
 This list out all the basic materials that is required to craft the item. Since it rounds up when it comes to crafting recipes that are not 1 to 1, you may find that you will have leftovers after crafting. (Eg. recipe for mirrors produce 2 at a time, but you need 3 in a solar panel. The calculator will round up to 4 mirrors so you produce it twice).
 
-## Supported mods in Skyfactory 3
+## Supported mods in SkyFactory 3
 * [Solar Flux Reborn](https://minecraft.curseforge.com/projects/solar-flux-reborn)
 
 ## Disclaimer
@@ -33,8 +33,8 @@ There may be bugs in the tool resulting in an inaccurate list of required items.
 
 
 ## Acknowledgements
-
-All images were take from the [Unofficial Feed the Beast Wiki page](https://ftbwiki.org/Feed_The_Beast_Wiki). These images belong to their respective creators (Mojang / the creator of a specific mod).
+* [Phaser](https://phaser.io/) as this was built with Phaser.
+* All images were take from the [Unofficial Feed the Beast Wiki page](https://ftbwiki.org/Feed_The_Beast_Wiki). These images belong to their respective creators (Mojang / the creator of a specific mod).
 
 
 
