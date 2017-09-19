@@ -4,7 +4,7 @@ This tool was made out of frustration of having to figure out how many items I n
 
 ## Requirements
 
-Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the `package.json` for any dependencies. If you want to have an offline version, download the folder named `offline`. After downloading, run `index.html` on your browser. Alternatively, you can got to my [GitHub Pages](https://lazukr.github.io/).
+Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the `package.json` for any dependencies. If you want to have an offline version, download the folder named `offline`. After downloading, run `index.html` on your browser. Alternatively, you can go to my [GitHub Pages](https://lazukr.github.io/).
 
 ## Usage
 
