@@ -4,14 +4,6 @@ Menu.prototype = {
 
     preload: function() {
 
-        // loading image assets and creating the Item data.
-        game.ITEM_LIST = {};
-        JSONItemList = game.cache.getJSON('item');
-        for (var key in JSONItemList) {
-            game.load.image(key, '/assets/' + key + '.png');
-            game.ITEM_LIST[key] = new Item(JSONItemList, key);
-        }
-
         // display all static stuff
         game.stage.backgroundColor = '#aec6cf';
 
@@ -39,7 +31,7 @@ Menu.prototype = {
 
         // make the final recipe list
         for (var item in game.ITEM_LIST) {
-            game.ITEM_LIST[item].getFinalRecipe(JSONItemList);
+            game.ITEM_LIST[item].getFinalRecipe(ITEM_DATA);
         }
 
         // add variable text
@@ -102,10 +94,12 @@ Menu.prototype = {
             }
         };
 
+
         // add custom function to update selected item to the selected item section
         craftableItemGroup.onChildInputDown.add(function(item) {
             selectedItemGroup.removeAll(true);
-            selectedItemGroup.createWithCallback(0, 0, item); 
+            selectedItemGroup.createWithCallback(0, 0, item);
+            
         });
 
         // look through the list of items and add sprites
