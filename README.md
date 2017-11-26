@@ -2,10 +2,6 @@
 
 This tool was made out of frustration of having to figure out how many items I needed in order to craft a specific tier of solar panels from the [SkyFactory 3 modpack](https://www.feed-the-beast.com/projects/ftb-presents-skyfactory-3). The version used is **3.0.13**.
 
-## Requirements
-
-Since I wanted to put this on a server and not have to worry about it, it was built with [Node.js](https://nodejs.org/en/). Refer to the `package.json` for any dependencies. If you want to have an offline version, download the folder named `offline`. After downloading, run `index.html` on your browser. Alternatively, the offline version is currently hosted on my [GitHub Pages](https://lazukr.github.io/).
-
 ## Usage
 
 ### Basic Materials
